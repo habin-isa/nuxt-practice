@@ -4,13 +4,14 @@
         <div class="thumbnail" :style="{backgroundImage: 'url(' + thumbnail + ')'}"></div>
         <h1>{{ title }}</h1>
         <p>{{ previewText }}</p>
+        <p>{{ contactText }}</p>
     </article>
 </nuxt-link>
 </template>
 
 <script>
 export default {
-    props: ['thumbnail', 'title', 'id', 'previewText']
+    props: ['thumbnail', 'title', 'id', 'previewText', 'contactText']
 }
 </script>
 
